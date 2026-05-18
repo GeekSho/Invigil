@@ -247,7 +247,10 @@ def start_monitoring(
                     > SCORE_COOLDOWN
                 ):
 
-                    suspicion_score += 1
+                    suspicion_score = min(
+                        suspicion_score + 1,
+                        5
+                    )
 
                     last_score_time = (
                         current_time
@@ -351,7 +354,7 @@ def start_monitoring(
             if (
                 current_time
                 - last_decay_time
-                > 15
+                > 5
             ):
 
                 if suspicion_score > 0:

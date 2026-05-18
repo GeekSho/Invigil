@@ -110,7 +110,7 @@ Before running the project, install:
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Invigil.git
+git clone https://github.com/GeekSho/Invigil.git
 ```
 
 ---
@@ -392,6 +392,6 @@ Possible future upgrades:
 
 Developed by:
 
-GeekSho
+Team Z
 
 ---
