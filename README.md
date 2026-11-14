@@ -390,8 +390,6 @@ Possible future upgrades:
 
 # Developer
 
-Developed by:
+Independently designed and developed by [Sho](https://github.com/GeekSho).
 
-Team Z
-
----
+Entire project conceived, implemented, and maintained individually.
